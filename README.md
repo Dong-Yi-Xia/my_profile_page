@@ -1,4 +1,13 @@
-# Getting Started with Create React App
+# Personal Webpage 
+
+All project is a summary about me. 
+
+## Packages
+
+Build using - create-react-app \
+ReactBootstrap - npm install react-bootstrap bootstrap \
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
