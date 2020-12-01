@@ -12,14 +12,14 @@ function SectionLinks () {
     return (
         <div id="SectionLinks"> 
 
-            <div class="topnav">
-                <a href="#" class="active">Home</a>
+            <div className="topnav">
+                <a href="#" className="active">Home</a>
                 <a href="#">Bio</a>
                 <a href="#">Projects</a>
                 <a href="#">Experiences</a>
                 <a href="#">Education</a>
-                <a href="javascript:void(0);" class="icon" onClick={addResponse}>
-                    <i class="fa fa-bars"></i>
+                <a href="javascript:void(0);" className="icon" onClick={addResponse}>
+                    <i className="fa fa-bars"></i>
                 </a>
             </div>
 
