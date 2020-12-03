@@ -1,4 +1,5 @@
 import React from 'react'
+import '../Component_css/SectionLinks.css'
 
 
 
@@ -18,7 +19,7 @@ function SectionLinks () {
                 <a href="#">Projects</a>
                 <a href="#">Experiences</a>
                 <a href="#">Education</a>
-                <a href="javascript:void(0);" className="icon" onClick={addResponse}>
+                <a className="icon" onClick={addResponse}>
                     <i className="fa fa-bars"></i>
                 </a>
             </div>
