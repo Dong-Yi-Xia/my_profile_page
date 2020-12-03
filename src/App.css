@@ -39,9 +39,9 @@
 
 
 
-* {
+/* * {
   box-sizing: border-box;
- }
+ } */
  
 body {
   height: 100%;
@@ -74,8 +74,8 @@ body {
 }
 
 .imageContainer{
-  width: 30%;
-  height: 30%;
+  width: 400px;
+  height: 400px;
   margin: auto;
   overflow: hidden;
   border-radius: 50%;
@@ -86,11 +86,12 @@ body {
       red, 
       rgba(0, 0, 0, 0)
     ) 1% 100%;
-
 }
 
 .profilePic{
     width: 100%;
+    position: relative;
+    top: -55px;
 }
 
 
