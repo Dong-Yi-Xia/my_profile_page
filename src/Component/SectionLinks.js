@@ -14,10 +14,10 @@ function SectionLinks () {
         <div id="SectionLinks"> 
 
             <div className="topnav">
-                <a href="#" className="active">Home</a>
-                <a href="#">Bio</a>
-                <a href="#">Projects</a>
-                <a href="#">Experiences</a>
+                <a href="#home"  className="active">Dong Xia</a>
+                <a href="#about" >About</a>
+                <a href="#projects" >Projects</a>
+                <a href="#skills">Skills</a>
                 <a href="#">Education</a>
                 <a className="icon" onClick={addResponse}>
                     <i className="fa fa-bars"></i>
