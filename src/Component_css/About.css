@@ -1,5 +1,18 @@
-.aboutSection{
-    display: flex;
-    justify-content: center
+.aboutSection, .skillsSection, .contactSection {
+    width: 75%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding: 5% 0;
+    position: relative;
 }
 
+.returnButton{
+    position: absolute;
+    right: 0;
+    padding: 0px 20px; 
+}
+
+.aboutSection p, .skillsSection p {
+    margin-bottom: 60px;
+} 

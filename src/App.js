@@ -3,6 +3,8 @@ import './App.css';
 import Footer from './Component/Footer'
 import SectionLinks from './Component/SectionLinks'
 import About from './Component/About'
+import Skills from './Component/Skills'
+import Contact from './Component/Contact'
 
 
 function removeResponse() {
@@ -25,17 +27,27 @@ function App() {
       
 
       <div className="mainbody" onClick={removeResponse}>
-        <div className="bgimg1" id="about"> 
-          <h1 className="bgtitle"> ABOUT </h1> 
+
+        <div className="sectionimg1" id="about"> 
+          <h1 className="sectiontitle"> ABOUT </h1> 
         </div>
         <About/>
-        <div className="testing" > </div>
-
-        <div className="bgimg2" id="projects"> 
-          <h1 className="bgtitle"> PROJECTS </h1> 
+    
+        <div className="sectionimg2" id="projects"> 
+          <h1 className="sectiontitle"> PROJECTS </h1> 
         </div>
+        <div className="testing"></div>
 
-        <div className="testing" > </div>
+        <div className="sectionimg3" id="skills"> 
+          <h1 className="sectiontitle"> Skills </h1> 
+        </div>
+        <Skills/>
+
+        <div className="sectionimg3" id="contact"> 
+          <h1 className="sectiontitle"> Skills </h1> 
+        </div>
+        <Contact/>
+      
 
       </div>
 

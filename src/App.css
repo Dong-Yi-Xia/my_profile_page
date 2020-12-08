@@ -98,18 +98,23 @@ body {
 /* ######## MainBody ######## */
 
 
-.bgimg1 {
+.sectionimg1 {
   background-image: url(https://res.cloudinary.com/dfqzcsl8x/image/upload/v1602968343/Project4/Emilia_ehqzal.jpg);
-  min-height: 300px; 
+  min-height: 400px; 
   display: flex;
 }
 
-.bgimg2 {
+.sectionimg2 {
   background-image: url(https://res.cloudinary.com/dfqzcsl8x/image/upload/v1602968346/Project4/Sagiri_Izumi_icaenq.jpg);
-  min-height: 300px; 
+  min-height: 400px; 
 }
 
-.bgimg1, .bgimg2{
+.sectionimg3{
+  background-image: url(https://res.cloudinary.com/dfqzcsl8x/image/upload/v1602968344/Project4/Lucy_Heartfilia_jzvluw.jpg);
+  min-height: 400px;
+}
+
+.sectionimg1, .sectionimg2, .sectionimg3{
   position: relative;
   opacity: 0.70;
   background-attachment: fixed;
@@ -120,12 +125,12 @@ body {
 }
 
 @media screen and (max-width: 610px) {
-  .bgimg1 {
-    min-height: 200px; 
+  .sectionimg1 {
+    min-height: 300px; 
   }
 }
 
-.bgtitle{
+.sectiontitle{
   margin: auto;
   font-size: 4em;
 }
