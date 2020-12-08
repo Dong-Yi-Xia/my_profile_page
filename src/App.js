@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App" >
 
-      <header>
+      <header id="home">
         <SectionLinks/>
         <div className="App-header" onClick={removeResponse}>
             <div className="imageContainer">

@@ -101,6 +101,7 @@ body {
 .bgimg1 {
   background-image: url(https://res.cloudinary.com/dfqzcsl8x/image/upload/v1602968343/Project4/Emilia_ehqzal.jpg);
   min-height: 300px; 
+  display: flex;
 }
 
 .bgimg2 {
@@ -118,7 +119,7 @@ body {
   display: flex;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 610px) {
   .bgimg1 {
     min-height: 200px; 
   }
@@ -133,3 +134,10 @@ body {
   height:1000px;
   background-color:rgb(83, 67, 67)
 }
+
+/* button{
+  max-height: 30px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+} */

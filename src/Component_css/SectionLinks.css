@@ -1,7 +1,16 @@
+a.active.myName{
+  font-size: 2em;
+  margin-inline-end: auto;
+}
+
+@media screen and (min-width: 610px) {
 .topnav {
     overflow: hidden;
     background-color: rgb(163, 152, 152);
+    display: flex;
+    align-items: center;
   }
+}
 
 .topnav a {
   float: left;
@@ -27,7 +36,7 @@
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 610px) {
   .topnav a:not(:first-child){
     display: none;
   }
@@ -37,7 +46,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 610px) {
   .topnav.responsive {
     position: relative;
   }
@@ -65,4 +74,6 @@
   z-index: 2;
   width: 100%;
   border: 2px black solid;
+  background-color: rgb(163, 152, 152);
+  /* position: fixed; */
 }
