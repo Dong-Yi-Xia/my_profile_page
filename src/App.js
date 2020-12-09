@@ -44,7 +44,7 @@ function App() {
         <Skills/>
 
         <div className="sectionimg3" id="contact"> 
-          <h1 className="sectiontitle"> Skills </h1> 
+          <h1 className="sectiontitle"> Contact </h1> 
         </div>
         <Contact/>
       

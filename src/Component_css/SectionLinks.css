@@ -20,16 +20,25 @@ a.active.myName{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  margin: 0 2%;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  /* background-color: #ddd;
+  color: black; */
+  font-size: 2em;
+  color: green;
+  font-weight: 900;
 }
 
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
+.topnav.responsive a:hover{
+  margin-left: 5%;
+}
+
+.topnav.responsive a.active {
+  /* background-color: #4CAF50;
+  color: white; */
+  border-bottom: 1px solid black;
 }
 
 .topnav .icon {
@@ -73,7 +82,7 @@ a.active.myName{
   position: absolute;
   z-index: 2;
   width: 100%;
-  border: 2px black solid;
+  /* border: 2px black solid; */
   background-color: rgb(163, 152, 152);
   /* position: fixed; */
 }

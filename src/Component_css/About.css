@@ -10,9 +10,15 @@
 .returnButton{
     position: absolute;
     right: 0;
+    bottom: 0;
     padding: 0px 20px; 
 }
 
-.aboutSection p, .skillsSection p {
+.returnButton:hover{
+    opacity: .7;
+    background-color: green;
+}
+
+.aboutSection p, .skillsSection p, {
     margin-bottom: 60px;
 } 
