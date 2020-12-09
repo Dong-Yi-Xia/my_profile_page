@@ -1,4 +1,5 @@
 import React from 'react'
+import '../Component_css/Skills.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons'
 

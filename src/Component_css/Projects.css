@@ -1,0 +1,17 @@
+.projectsSection{
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.slides{
+    width: 700px;
+    margin: 5%;
+}
+
+@media screen and (max-width: 700px) {
+    .slides{
+        width: 100%;
+    }
+}

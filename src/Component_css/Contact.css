@@ -50,6 +50,11 @@
     color: white;
 } 
 
+.fa-envelope-o{
+    background: #65e484;
+    color: white;
+}
+
 .contactSection{
     display: flex;
     justify-content: space-around;
@@ -61,6 +66,18 @@
 @media screen and (max-width: 610px) {
     .contactSection{
         flex-wrap: wrap;
-        justify-content: flex-start;
+        justify-content: space-between;
+        min-height: 400px;
     }
+}
+
+.contactSection div {
+    margin: 2%;
+}
+
+.contactSection div p{
+    border: black 2px solid;
+    border-radius: 20%;
+    text-align: center;
+    box-shadow: 0 -10px  blue ;
 }

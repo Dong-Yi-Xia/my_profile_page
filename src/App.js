@@ -3,8 +3,12 @@ import './App.css';
 import Footer from './Component/Footer'
 import SectionLinks from './Component/SectionLinks'
 import About from './Component/About'
+import Projects from './Component/Projects'
 import Skills from './Component/Skills'
 import Contact from './Component/Contact'
+// import VideoBG from './Component/VideoBG'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons'
 
 
 function removeResponse() {
@@ -15,7 +19,7 @@ function removeResponse() {
 function App() {
   return (
     <div className="App" >
-
+   
       <header id="home">
         <SectionLinks/>
         <div className="App-header" onClick={removeResponse}>
@@ -36,14 +40,14 @@ function App() {
         <div className="sectionimg2" id="projects"> 
           <h1 className="sectiontitle"> PROJECTS </h1> 
         </div>
-        <div className="testing"></div>
+        <Projects/>
 
         <div className="sectionimg3" id="skills"> 
           <h1 className="sectiontitle"> Skills </h1> 
         </div>
         <Skills/>
 
-        <div className="sectionimg3" id="contact"> 
+        <div className="sectionimg4" id="contact"> 
           <h1 className="sectiontitle"> Contact </h1> 
         </div>
         <Contact/>
@@ -52,6 +56,9 @@ function App() {
       </div>
 
       <footer>
+        <a href="#home">
+            <button className="returnButtonMain"> <FontAwesomeIcon icon={faAngleDoubleUp} /></button>
+        </a>
         <Footer/>
       </footer>
     </div>

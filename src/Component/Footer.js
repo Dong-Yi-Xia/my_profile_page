@@ -6,7 +6,7 @@ import '../Component_css/Footer.css'
 function Footer () {
     return (
         <div>
-            <p> Footer Here </p>
+            <p> Dong Xia @ 2020 </p>
         </div>
     )
 }

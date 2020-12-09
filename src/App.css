@@ -42,7 +42,10 @@
 /* * {
   box-sizing: border-box;
  } */
- 
+ html {
+  scroll-behavior: smooth;
+}
+
 body {
   height: 100%;
   position: relative;
@@ -53,7 +56,7 @@ body {
   overflow: hidden;
   display: block;
   position: relative;
-  /* padding-bottom: 100px; */
+  padding-bottom: 50px;
 }
 
 /* footer{
@@ -71,6 +74,8 @@ body {
   background-color: grey;
   padding-top: 10%;
   padding-bottom: 5%;
+  position: relative;
+  overflow: hidden;
 }
 
 .imageContainer{
@@ -86,35 +91,42 @@ body {
       red, 
       rgba(0, 0, 0, 0)
     ) 1% 100%;
+  position: relative;   
 }
 
 .profilePic{
     width: 100%;
-    position: relative;
+    position: absolute;
+    z-index: 2;
     top: -55px;
+    left: 0;
 }
-
 
 /* ######## MainBody ######## */
 
 
 .sectionimg1 {
-  background-image: url(https://res.cloudinary.com/dfqzcsl8x/image/upload/v1602968343/Project4/Emilia_ehqzal.jpg);
+  background-image: url(https://res.cloudinary.com/dfqzcsl8x/image/upload/v1602885267/samples/sheep.jpg);
   min-height: 400px; 
   display: flex;
 }
 
 .sectionimg2 {
-  background-image: url(https://res.cloudinary.com/dfqzcsl8x/image/upload/v1602968346/Project4/Sagiri_Izumi_icaenq.jpg);
+  background-image: url(https://res.cloudinary.com/dfqzcsl8x/image/upload/v1602885274/samples/imagecon-group.jpg);
   min-height: 400px; 
 }
 
 .sectionimg3{
-  background-image: url(https://res.cloudinary.com/dfqzcsl8x/image/upload/v1602968344/Project4/Lucy_Heartfilia_jzvluw.jpg);
+  background-image: url(https://res.cloudinary.com/dfqzcsl8x/image/upload/v1602885268/samples/bike.jpg);
   min-height: 400px;
 }
 
-.sectionimg1, .sectionimg2, .sectionimg3{
+.sectionimg4{
+  background-image: url(https://res.cloudinary.com/dfqzcsl8x/image/upload/v1602885275/samples/cloudinary-group.jpg);
+  min-height: 400px;
+}
+
+.sectionimg1, .sectionimg2, .sectionimg3, .sectionimg4{
   position: relative;
   opacity: 0.70;
   background-attachment: fixed;
@@ -125,7 +137,7 @@ body {
 }
 
 @media screen and (max-width: 610px) {
-  .sectionimg1 {
+  .sectionimg1, .sectionimg2, .sectionimg3, .sectionimg4 {
     min-height: 300px; 
   }
 }
@@ -135,14 +147,18 @@ body {
   font-size: 4em;
 }
 
-.testing{
-  height:1000px;
-  background-color:rgb(83, 67, 67)
+/* ### Return Back to The top Icon ### */
+
+.returnButtonMain{
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  padding: 20px 20px; 
+  border-radius: 20%;
+  opacity: .2;
 }
 
-/* button{
-  max-height: 30px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-} */
+.returnButtonMain:hover{
+  opacity: .8;
+  background-color: green;
+}

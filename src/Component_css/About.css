@@ -1,4 +1,6 @@
-.aboutSection, .skillsSection, .contactSection {
+
+
+.aboutSection, .skillsSection, .contactSection, .projectsSection {
     width: 75%;
     margin: auto;
     margin-top: 2%;
@@ -12,6 +14,7 @@
     right: 0;
     bottom: 0;
     padding: 0px 20px; 
+    opacity: .3;
 }
 
 .returnButton:hover{
@@ -19,6 +22,8 @@
     background-color: green;
 }
 
-.aboutSection p, .skillsSection p, {
+.aboutSection p{
     margin-bottom: 60px;
+    color: purple;
 } 
+
