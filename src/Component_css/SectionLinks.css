@@ -77,7 +77,7 @@ a.active.myName{
 
 #SectionLinks{
   position: absolute;
-  z-index: 2;
+  z-index: 3;
   width: 100%;
   /* border: 2px black solid; */
   background-color: rgb(163, 152, 152);

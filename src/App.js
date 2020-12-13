@@ -24,7 +24,7 @@ function App() {
         <SectionLinks/>
         <div className="App-header" onClick={removeResponse}>
             <div className="imageContainer">
-               <img src='https://res.cloudinary.com/dfqzcsl8x/image/upload/v1606943031/Project4/profilePic_ayevjz.png' className="profilePic" alt="profilePic" />
+               <img src='https://res.cloudinary.com/dfqzcsl8x/image/upload/v1606943031/ProfileProject/profilePic_ayevjz.png' className="profilePic" alt="profilePic" />
             </div>
         </div>
       </header>
