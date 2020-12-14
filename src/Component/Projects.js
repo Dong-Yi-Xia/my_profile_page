@@ -6,7 +6,13 @@ import Carousel from 'react-bootstrap/Carousel'
 
 
 function Projects (){
+    console.log(window.location.pathname)
     return(
+        <>
+        <div className="sectionimg2" id="projects"> 
+            <h1 className="sectiontitle"> PROJECTS </h1> 
+        </div>
+
         <div className="projectsSection">
 
             <div className="slides project5">
@@ -139,6 +145,7 @@ function Projects (){
             </a>
   
         </div>
+        </>
     )
 }
 

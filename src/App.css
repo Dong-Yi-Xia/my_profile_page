@@ -103,7 +103,9 @@ body {
 }
 
 /* ######## MainBody ######## */
-
+.mainbody{
+  padding-bottom: 50px;
+}
 
 .sectionimg1 {
   background-image: url(https://res.cloudinary.com/dfqzcsl8x/image/upload/v1602885267/samples/sheep.jpg);
@@ -156,6 +158,8 @@ body {
   padding: 20px 20px; 
   border-radius: 20%;
   opacity: .2;
+  color: white;
+  background-color: black;
 }
 
 .returnButtonMain:hover{

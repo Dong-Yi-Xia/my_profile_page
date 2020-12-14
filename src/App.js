@@ -2,13 +2,13 @@
 import './App.css';
 import Footer from './Component/Footer'
 import SectionLinks from './Component/SectionLinks'
-import About from './Component/About'
+import MainHome from './Component/MainHome'
 import Projects from './Component/Projects'
-import Skills from './Component/Skills'
-import Contact from './Component/Contact'
-// import VideoBG from './Component/VideoBG'
+import GameProjects from './Component/GameProjects'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons'
+import { Route, Switch } from 'react-router-dom'
 
 
 function removeResponse() {
@@ -31,8 +31,13 @@ function App() {
       
 
       <div className="mainbody" onClick={removeResponse}>
+        <Switch>
+           <Route path="/" exact component={MainHome} />
+           <Route path="/Projects" exact component={Projects} />
+           <Route path="/GameProjects" exact component={GameProjects} />
+        </Switch>
 
-        <div className="sectionimg1" id="about"> 
+        {/* <div className="sectionimg1" id="about"> 
           <h1 className="sectiontitle"> ABOUT </h1> 
         </div>
         <About/>
@@ -50,9 +55,9 @@ function App() {
         <div className="sectionimg4" id="contact"> 
           <h1 className="sectiontitle"> Contact </h1> 
         </div>
-        <Contact/>
+        <Contact/> */}
       
-
+        
       </div>
 
       <footer>

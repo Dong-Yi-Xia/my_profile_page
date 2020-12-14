@@ -7,32 +7,32 @@ function Contact (){
     return(
         <div className="contactSection">
             <div>
-                <a href="https://github.com/Dong-Yi-Xia" target="_blank" class="fa fa-github"></a>
+                <a href="https://github.com/Dong-Yi-Xia" target="_blank" rel="noreferrer" class="fa fa-github"> </a>
                 <p>Github</p>
             </div>
 
             <div>
-               <a href="https://www.linkedin.com/in/dong-xia-tennis-4040/"  target="_blank" class="fa fa-linkedin"></a>
+               <a href="https://www.linkedin.com/in/dong-xia-tennis-4040/"  target="_blank" rel="noreferrer" class="fa fa-linkedin"> </a>
                <p>Linkedin</p>
             </div>
 
             <div>
-                 <a href="https://dong-xia.medium.com/" target="_blank" class="fa fa-medium"></a>
+                 <a href="https://dong-xia.medium.com/" target="_blank" rel="noreferrer" class="fa fa-medium"> </a>
                  <p>Medium</p>
             </div>
 
             <div>
-                 <a href="https://www.youtube.com/channel/UCa890fNFidDb2UZGzpAmDCw?view_as=subscriber" target="_blank" class="fa fa-youtube-play"></a>
+                 <a href="https://www.youtube.com/channel/UCa890fNFidDb2UZGzpAmDCw?view_as=subscriber" target="_blank" rel="noreferrer" class="fa fa-youtube-play"> </a>
                  <p>Youtube</p>
             </div>
 
             <div>
-                <a href="https://drive.google.com/file/d/1b43eTSd8mV8UzoJp26_3xiicC50FhB9y/view?usp=sharing" target="_blank" class="fa fa-file-pdf-o"></a>
+                <a href="https://drive.google.com/file/d/1b43eTSd8mV8UzoJp26_3xiicC50FhB9y/view?usp=sharing" target="_blank" rel="noreferrer" class="fa fa-file-pdf-o"> </a>
                 <p>Resume</p>
             </div>
 
             <div>
-                <a href="mailto:dong7777xia@gmail.com"  class="fa fa-envelope-o"></a>
+                <a href="mailto:dong7777xia@gmail.com"  class="fa fa-envelope-o"> </a>
                 <p>E-Mail</p>
             </div>
 
