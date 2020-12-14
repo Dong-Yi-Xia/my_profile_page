@@ -1,10 +1,15 @@
 import React from 'react'
 import '../Component_css/VideoBG.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons'
 
 function VideoBG(){
     return(
-        <div>
-            <video src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/blurry-trees.mov" autoplay loop playsinline muted> </video> 
+        <div className="videoSection">
+            <h1> Some Video</h1>
+            <a href="#home">
+                <button className="returnButton"> <FontAwesomeIcon icon={faAngleDoubleUp} /></button>
+            </a>
         </div>
     )
 }

@@ -108,27 +108,36 @@ body {
 }
 
 .sectionimg1 {
-  background-image: url(https://res.cloudinary.com/dfqzcsl8x/image/upload/v1602885267/samples/sheep.jpg);
+  background-image: url(https://res.cloudinary.com/dfqzcsl8x/image/upload/v1607977324/ProfileProject/kitera-dent-V6eAbNSnzco-unsplash_lhzhej.jpg);
   min-height: 400px; 
-  display: flex;
 }
 
 .sectionimg2 {
-  background-image: url(https://res.cloudinary.com/dfqzcsl8x/image/upload/v1602885274/samples/imagecon-group.jpg);
+  background-image: url(https://res.cloudinary.com/dfqzcsl8x/image/upload/v1607978461/ProfileProject/david-lusvardi-dWcUncxocQY-unsplash_biusur.jpg);
   min-height: 400px; 
 }
 
 .sectionimg3{
-  background-image: url(https://res.cloudinary.com/dfqzcsl8x/image/upload/v1602885268/samples/bike.jpg);
+  background-image: url(https://res.cloudinary.com/dfqzcsl8x/image/upload/v1607977648/ProfileProject/mohammad-saemian-cEo3f-8MkDY-unsplash_ovbhfx.jpg);
   min-height: 400px;
 }
 
 .sectionimg4{
-  background-image: url(https://res.cloudinary.com/dfqzcsl8x/image/upload/v1602885275/samples/cloudinary-group.jpg);
+  background-image: url(https://res.cloudinary.com/dfqzcsl8x/image/upload/v1607977626/ProfileProject/kyle-glenn-_PuoQvJx7pM-unsplash_ro47jv.jpg);
   min-height: 400px;
 }
 
-.sectionimg1, .sectionimg2, .sectionimg3, .sectionimg4{
+.sectionimg5{
+  background-image: url(https://res.cloudinary.com/dfqzcsl8x/image/upload/v1607978979/ProfileProject/jf-martin-Ofs3LjEUcrk-unsplash_vk9buv.jpg);
+  min-height: 400px;
+}
+
+.sectionimg6{
+  background-image: url(https://res.cloudinary.com/dfqzcsl8x/image/upload/v1607979273/ProfileProject/nadine-shaabana-YsPnamiHdmI-unsplash_n7julv.jpg);
+  min-height: 400px;
+}
+
+.sectionimg1, .sectionimg2, .sectionimg3, .sectionimg4, .sectionimg5, .sectionimg6{
   position: relative;
   opacity: 0.70;
   background-attachment: fixed;
@@ -139,7 +148,7 @@ body {
 }
 
 @media screen and (max-width: 610px) {
-  .sectionimg1, .sectionimg2, .sectionimg3, .sectionimg4 {
+  .sectionimg1, .sectionimg2, .sectionimg3, .sectionimg4, .sectionimg5, .sectionimg6 {
     min-height: 300px; 
   }
 }
@@ -147,6 +156,8 @@ body {
 .sectiontitle{
   margin: auto;
   font-size: 4em;
+  color:#cf4c4c;
+  text-shadow: 0px 2px 4px rgb(17, 184, 59);
 }
 
 /* ### Return Back to The top Icon ### */

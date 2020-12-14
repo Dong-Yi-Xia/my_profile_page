@@ -6,10 +6,10 @@ import Carousel from 'react-bootstrap/Carousel'
 
 
 function Projects (){
-    console.log(window.location.pathname)
+
     return(
         <>
-        <div className="sectionimg2" id="projects"> 
+        <div className="sectionimg5" id="projects"> 
             <h1 className="sectiontitle"> PROJECTS </h1> 
         </div>
 

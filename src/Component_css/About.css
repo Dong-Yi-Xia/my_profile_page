@@ -1,6 +1,7 @@
 
 
-.aboutSection, .skillsSection, .contactSection, .projectsSection {
+.aboutSection, .skillsSection, .videoSection, .contactSection, 
+.projectsSection, .gameprojectsSection {
     width: 75%;
     margin: auto;
     margin-top: 2%;
