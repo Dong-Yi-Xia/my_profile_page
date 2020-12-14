@@ -140,9 +140,6 @@ function Projects (){
             </div>
 
 
-            <a href="#home">
-                <button className="returnButton"> <FontAwesomeIcon icon={faAngleDoubleUp} /></button>
-            </a>
   
         </div>
         </>

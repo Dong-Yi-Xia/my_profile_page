@@ -11,11 +11,7 @@ function addResponse() {
 }
 
 function SectionLinks (props) {
-    let [navigate, setNavigate] = useState("54")
-
-
-
-    console.log(props)
+   
     return (
         <div id="SectionLinks"> 
             <div className="topnav" onClick={addResponse}>     
