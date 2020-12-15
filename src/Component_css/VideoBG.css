@@ -1,9 +1,8 @@
-video {
-    width: 100%;
-    min-height: 600px;
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-  }
-  
+
+.videoContainer{
+  border: 2px solid black;
+}  
+
+/* .singleVideo{
+  width: 100%;
+} */
