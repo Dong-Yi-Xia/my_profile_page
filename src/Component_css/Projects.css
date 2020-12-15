@@ -8,10 +8,46 @@
 .slides{
     width: 700px;
     margin: 5%;
+    padding: 5%;
+    text-align: center;
+    box-shadow: 0 0px 40px 10px grey;
+}
+
+.plinebreak{
+    border-bottom: solid 10px;
+    border-image: linear-gradient( red, yellow, red)100% 0%;
+    box-shadow: 0px -10px 30px 2px red;
+    width: 100%;
 }
 
 @media screen and (max-width: 700px) {
     .slides{
         width: 100%;
     }
+}
+
+@media screen and (min-width: 600px) {
+    .d-block{
+        min-height: 300px;
+    }
+}
+
+.carousel-control-next-icon{
+    background-color: rgba(255, 0, 0, 0.4);
+}
+
+.carousel-control-prev-icon{
+    background-color: rgba(0, 0, 255, 0.4);
+}
+
+.slides h4{
+    font-family: run;
+}
+
+.slides a{
+    margin: 5px 20px;
+}
+
+.projectlinks{
+    background-color: rgb(212, 249, 250);
 }

@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face { font-family: wildcrazy; src: url('fonts-style/OrangeSlicesOutline-nRng0.otf'); } 
+@font-face { font-family: drag; src: url('fonts-style/62Dragz-vmAp9.otf'); } 
+@font-face { font-family: widow; src: url('fonts-style/BlackWidowMovie-d95Rg.ttf'); } 
+@font-face { font-family: run; src: url('fonts-style/Run-6YeWA.ttf'); } 
+

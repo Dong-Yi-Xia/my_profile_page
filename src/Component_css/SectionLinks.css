@@ -1,6 +1,7 @@
 a.active.myName{
   font-size: 2em;
   margin-inline-end: auto;
+  font-family: drag;
 }
 
 @media screen and (min-width: 610px) {
