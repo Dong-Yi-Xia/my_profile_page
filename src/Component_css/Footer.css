@@ -5,6 +5,7 @@ footer{
     min-height: 120px;
     padding-bottom: 10px;
     background-color: #3b3f42;
+    /* background-color:  #cf4c4c; */
     color: rgba(255,255,255,.5);
     display: flex;
     justify-content: center;

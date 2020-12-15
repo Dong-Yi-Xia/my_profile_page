@@ -71,11 +71,11 @@ body {
 /* ######## Header ######## */
 .App-header{
   text-align: center;
-  background-color: grey;
   padding-top: 10%;
   padding-bottom: 5%;
   position: relative;
   overflow: hidden;
+  background-image: linear-gradient(to top right, red, yellow, red);
 }
 
 .imageContainer{

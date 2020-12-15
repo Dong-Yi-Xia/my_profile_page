@@ -1,4 +1,5 @@
 import React from 'react'
+import '../Component_css/GameProjects.css'
 
 function GameProjects() {
     return(
