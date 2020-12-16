@@ -5,7 +5,11 @@ All project is a summary about me.
 ## Packages
 
 Build using - create-react-app \
+Routes - npm install react-router-dom \
 ReactBootstrap - npm install react-bootstrap bootstrap \
+Fontawesome Icons - npm install --save @fortawesome/fontawesome-free \
+Video Player - npm install react-player \
+
 
 ## Getting Started with Create React App
 
