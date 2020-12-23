@@ -49,5 +49,13 @@
 }
 
 .projectlinks{
+    background-color: rgba(212, 249, 250,.5);
+}
+
+.projectlinks a{
+    font-size: 1.2em;
+}
+
+.projectlinks a:hover{
     background-color: rgb(212, 249, 250);
 }

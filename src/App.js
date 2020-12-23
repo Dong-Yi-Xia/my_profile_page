@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons'
 import { Route, Switch } from 'react-router-dom'
 
+import Calculator from './Component/Games/Calculator'
 
 function removeResponse() {
   let x = document.querySelector(".topnav");
@@ -34,8 +35,10 @@ function App() {
         <Switch>
            <Route path="/" exact component={MainHome} />
            <Route path="/Projects" exact component={Projects} />
-           <Route path="/GameProjects" exact component={GameProjects} />
+           <Route path="/GameProjects" component={GameProjects} />
         </Switch>  
+
+        {/* <Calculator/> */}
       </div>
 
       <footer>

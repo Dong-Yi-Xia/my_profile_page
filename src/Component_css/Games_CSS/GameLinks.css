@@ -1,0 +1,23 @@
+.gameLinks{
+    text-align: center;
+}
+
+.gameDropDown{
+    display: inline-block;
+}
+
+.gameTitles{
+    color: red;
+    cursor: pointer;
+    font-size: 3rem;
+}
+
+.gameLinks.Links{
+    display: none;
+}
+
+.gameDropDown:hover 
+.gameLinks.Links{
+    display: block;
+    background-color: rgb(84, 225, 65);
+}

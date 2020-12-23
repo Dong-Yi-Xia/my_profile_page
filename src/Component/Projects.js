@@ -1,7 +1,5 @@
 import React from 'react'
 import '../Component_css/Projects.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons'
 import Carousel from 'react-bootstrap/Carousel'
 
 
@@ -18,8 +16,8 @@ function Projects (){
             <div className="slides project5">
                 <h4>UnderCover Restaurant Inspector App</h4>
                 <div class="projectlinks">
-                    <a href="https://mod5restaurant-app-e8887.firebaseapp.com/" target="_blank">Live</a>
-                    <a href="https://youtu.be/XsgI-8kNW9s" target="_blank">Demo</a>
+                    <a href="https://mod5restaurant-app-e8887.firebaseapp.com/" target="_blank" rel="noreferrer" >Live</a>
+                    <a href="https://youtu.be/XsgI-8kNW9s" target="_blank" rel="noreferrer" >Demo</a>
                 </div>
                 <Carousel>
                     <Carousel.Item>
@@ -85,8 +83,8 @@ function Projects (){
             <div className="slides project4">
                 <h4>My Waifu and Husbando Dating App</h4>
                 <div class="projectlinks">
-                    <a href="https://mod4dating-app.firebaseapp.com/" target="_blank">Live</a>
-                    <a href="https://youtu.be/cNt6Rvme8z8" target="_blank">Demo</a>
+                    <a href="https://mod4dating-app.firebaseapp.com/" target="_blank" rel="noreferrer" >Live</a>
+                    <a href="https://youtu.be/cNt6Rvme8z8" target="_blank" rel="noreferrer" >Demo</a>
                 </div>
                 <Carousel>
                     <Carousel.Item>
@@ -152,8 +150,8 @@ function Projects (){
             <div className="slides project3">
                 <h4>Ice Cream Bar App</h4>
                 <div class="projectlinks">
-                    <a href="https://mod3icecream-app.firebaseapp.com/" target="_blank">Live</a>
-                    <a href="https://youtu.be/pN6BFduQLqY" target="_blank">Demo</a>
+                    <a href="https://mod3icecream-app.firebaseapp.com/" target="_blank" rel="noreferrer" >Live</a>
+                    <a href="https://youtu.be/pN6BFduQLqY" target="_blank" rel="noreferrer" >Demo</a>
                 </div>
                 <Carousel>
                     <Carousel.Item>
@@ -184,8 +182,8 @@ function Projects (){
             <div className="slides project2">
                 <h4>Cozy Nation App</h4>
                 <div class="projectlinks">
-                    <a href="https://mod2-pets.herokuapp.com/" target="_blank">Live</a>
-                    <a href="https://youtu.be/4TgWvjdpRgM" target="_blank">Demo</a>
+                    <a href="https://mod2-pets.herokuapp.com/" target="_blank" rel="noreferrer" >Live</a>
+                    <a href="https://youtu.be/4TgWvjdpRgM" target="_blank" rel="noreferrer" >Demo</a>
                 </div>
                 <Carousel>
                     <Carousel.Item>
@@ -258,7 +256,7 @@ function Projects (){
             <div className="slides project1">
                 <h4>Movie Mate App</h4>
                 <div class="projectlinks">
-                    <a href="https://youtu.be/POL5bgMKg4g" target="_blank">Demo</a>
+                    <a href="https://youtu.be/POL5bgMKg4g" target="_blank" rel="noreferrer" >Demo</a>
                 </div>
                 <Carousel>
                     <Carousel.Item>
