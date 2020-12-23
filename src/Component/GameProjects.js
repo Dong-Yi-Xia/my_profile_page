@@ -17,7 +17,6 @@ function GameProjects() {
             <h1> WELCOME TO THE GAME CHANNEL</h1>
             <GameLinks />
            
-
             <Switch>
                 <Route path={`${path}/Calculator`}  exact component={Calculator}/>
                 <Route path={`${path}/SimpleJump`}  exact component={SimpleJump}/>

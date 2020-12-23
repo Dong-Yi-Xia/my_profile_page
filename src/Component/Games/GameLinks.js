@@ -11,9 +11,9 @@ function GameLinks (){
                 <Link to={url} className="gameTitles">Game Titles </Link>
 
                 <div className="gameLinks Links"> 
-                    <Link to={`${url}/Calculator`} > Calculator </Link>
-                    <Link to={`${url}/SimpleJump`} > SimpleJump </Link>
-                    <Link to={`${url}/Calculator`} > Calculator </Link>
+                    <Link className="singleGame" to={`${url}/Calculator`} > Calculator </Link>
+                    <Link className="singleGame" to={`${url}/SimpleJump`} > SimpleJump </Link>
+                    <Link className="singleGame" to={`${url}/Calculator`} > Calculator </Link>
                 </div>
                 
             </div>
