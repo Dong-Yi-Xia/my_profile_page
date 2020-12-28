@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function SimpleJump(){
+function SimpleJoke(){
     return(
         <div>
             <h1>SimpleJump</h1>
@@ -13,4 +13,4 @@ function SimpleJump(){
     )
 }
 
-export default SimpleJump
+export default SimpleJoke

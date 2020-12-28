@@ -3,7 +3,7 @@ import '../Component_css/GameProjects.css'
 import { Route, Switch, useRouteMatch } from 'react-router-dom'
 import GameLinks from './Games/GameLinks'
 import Calculator from './Games/Calculator'
-import SimpleJump from './Games/SimpleJump'
+import SimpleJoke from './Games/SimpleJoke'
 
 function GameProjects() {
     let { path, url } = useRouteMatch();
@@ -19,7 +19,7 @@ function GameProjects() {
            
             <Switch>
                 <Route path={`${path}/Calculator`}  exact component={Calculator}/>
-                <Route path={`${path}/SimpleJump`}  exact component={SimpleJump}/>
+                <Route path={`${path}/SimpleJoke`}  exact component={SimpleJoke}/>
             </Switch>
            
         </div>
