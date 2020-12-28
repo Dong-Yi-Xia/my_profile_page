@@ -7,16 +7,29 @@ function GameLinks (){
     
     return (
         <div className="gameLinks"> 
+
             <div className="gameDropDown"> 
                 <Link to={url} className="gameTitles">Game Titles </Link>
-
                 <div className="gameLinks Links"> 
                     <Link className="singleGame" to={`${url}/Calculator`} > Calculator </Link>
-                    <Link className="singleGame" to={`${url}/SimpleJoke`} > SimpleJoke </Link>
+                    <Link className="singleGame" to={`${url}/SimpleJoke`} > Simple Jokes </Link>
+                    <Link className="singleGame" to={`${url}/Calculator`} > Calculator </Link>
+
+                    <Link className="singleGame" to={`${url}/Calculator`} > Calculator </Link>
+                    <Link className="singleGame" to={`${url}/SimpleJoke`} > Simple Jokes </Link>
+                    <Link className="singleGame" to={`${url}/Calculator`} > Calculator </Link>
+                    <Link className="singleGame" to={`${url}/Calculator`} > Calculator </Link>
+                    <Link className="singleGame" to={`${url}/SimpleJoke`} > Simple Jokes </Link>
+                    <Link className="singleGame" to={`${url}/Calculator`} > Calculator </Link>
+                    <Link className="singleGame" to={`${url}/Calculator`} > Calculator </Link>
+                    <Link className="singleGame" to={`${url}/SimpleJoke`} > Simple Jokes </Link>
+                    <Link className="singleGame" to={`${url}/Calculator`} > Calculator </Link>
+                    <Link className="singleGame" to={`${url}/Calculator`} > Calculator </Link>
+                    <Link className="singleGame" to={`${url}/SimpleJoke`} > Simple Jokes </Link>
                     <Link className="singleGame" to={`${url}/Calculator`} > Calculator </Link>
                 </div>
-                
             </div>
+            
         </div>
     )
 }

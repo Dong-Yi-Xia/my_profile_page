@@ -10,13 +10,14 @@ ReactBootstrap - npm install react-bootstrap bootstrap \
 Fontawesome Icons - npm install --save @fortawesome/fontawesome-free \
 Video Player - npm install react-player \
 
-npm install react-axios
+npm install react-axios \ 
 
-Required peer dependancies 
-npm install axios
-npm install react
-npm install prop-types
+Required peer dependancies \
+npm install axios \
+npm install react \
+npm install prop-types \
 
+https://www.fontspace.com/category/fun \
 
 ## Getting Started with Create React App
 
