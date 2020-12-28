@@ -1,0 +1,43 @@
+.simpleJoke{
+    border: 2px black solid;
+    padding: 5%;
+    text-align: center;
+}
+
+.jokeSelection{
+    /* border: 2px black solid; */
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+
+}
+
+.jokeSelection button{
+    word-wrap: break-word;
+}
+
+.jokeType.show{
+    background-color: royalblue;
+    color: white;
+}
+
+.jokeResponse{
+    margin-top: 10%;
+    font-family: magic;
+    font-size: 2.5em;
+}
+
+.jokeTypeHeader {
+    text-transform: uppercase;
+}
+
+.gameTitle{
+    font-family: run;
+}
+
+.question{
+    color: rgb(0, 161, 0);
+}
+
+.answer{
+    color: rgba(245, 84, 35, 0.932);
+}

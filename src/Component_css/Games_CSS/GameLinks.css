@@ -8,9 +8,10 @@
 }
 
 .gameTitles{
-    color: red;
+    color: #cf4c4c;
     cursor: pointer;
     font-size: 3rem;
+    font-family: wildcrazy;
 }
 
 .gameLinks.Links{
@@ -20,6 +21,17 @@
 .gameDropDown:hover 
 .gameLinks.Links{
     display: block;
-    background-color: rgb(84, 225, 65);
+    margin-top: 5%;
 }
 
+.singleGame{
+    color: #cf4c4c;
+    margin-left: 15px;
+    border-bottom: #cf4c4c solid 5px;
+    font-size: 1.5em;
+    padding: 0 2%;
+}
+
+.singleGame:hover{
+    background-color: rgba(235, 171, 88, 0.356);
+}
