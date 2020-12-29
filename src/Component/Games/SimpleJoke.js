@@ -12,10 +12,14 @@ function SimpleJoke(){
 
     useEffect(()=> {
         async function fetchJokes(){
-            const request = await instance.get(fetchURL)
-            const response = request.data
-            Array.isArray(response) ? setJokes(...response) : setJokes(response)
-            // return response
+            try{
+                const request = await instance.get(fetchURL)
+                const response = request.data
+                Array.isArray(response) ? setJokes(...response) : setJokes(response)
+                // return response
+            } catch(err){
+                console.log(err)
+            }
         }
         return fetchJokes()
     },[fetchURL])
