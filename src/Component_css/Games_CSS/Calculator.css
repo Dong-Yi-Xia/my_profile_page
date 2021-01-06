@@ -29,6 +29,10 @@
     background-color: rgba(250, 235, 215, 0.9);
 }
 
+.calculator-grid .operationButton{
+    background-color: rgba(209, 42, 224, 0.4);
+}
+
 .span-two{
     grid-column: span 2;
 }
@@ -55,3 +59,4 @@
     color: rgba(255, 255, 255, 0.8);
     font-size: 2.5rem;
 }
+
