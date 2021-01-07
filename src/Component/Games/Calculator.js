@@ -131,28 +131,28 @@ function Calculator(){
                     <div className="current-operand">{currentOperand}</div>
                 </div>
 
-                <button onClick={allClear} class="span-two">AC</button>
-                <button onClick={deleteButton}>DEL</button>
-                <button onClick={operationButtons} className="operationButton">÷</button>
+                <button onClick={allClear} class="span-two functionButton">AC</button>
+                <button onClick={deleteButton} className="functionButton">DEL</button>
+                <button onClick={operationButtons} className="functionButton">÷</button>
 
                 <button onClick={numberButtons}>1</button>
                 <button onClick={numberButtons}>2</button>
                 <button onClick={numberButtons}>3</button>
-                <button onClick={operationButtons} className="operationButton">*</button>
+                <button onClick={operationButtons} className="functionButton">*</button>
 
                 <button onClick={numberButtons}>4</button>
                 <button onClick={numberButtons}>5</button>
                 <button onClick={numberButtons}>6</button>
-                <button onClick={operationButtons} className="operationButton">+</button>
+                <button onClick={operationButtons} className="functionButton">+</button>
 
                 <button onClick={numberButtons}>7</button>
                 <button onClick={numberButtons}>8</button>
                 <button onClick={numberButtons}>9</button>
-                <button onClick={operationButtons} className="operationButton">-</button>
+                <button onClick={operationButtons} className="functionButton">-</button>
 
                 <button onClick={numberButtons}>.</button>
                 <button onClick={numberButtons}>0</button>
-                <button onClick={equalButton} className="span-two">=</button>
+                <button onClick={equalButton} className="span-two functionButton">=</button>
             </div>
         </div>
     )
