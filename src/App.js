@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons'
 import { Route, Switch } from 'react-router-dom'
 
-import Calculator from './Component/Games/Calculator'
+// import Calculator from './Component/Games/Calculator'
 
 function removeResponse() {
   let x = document.querySelector(".topnav");

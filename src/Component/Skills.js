@@ -9,7 +9,12 @@ function Skills (){
         <div className="skillsSection">
 
             <h2>Software Skills: </h2>
-            <p>HTML, CSS, JavaScript, Ruby, Rails, React, Redux, SQL, PostgreSQL, BootStrap, Semantic UI, Git, REST API</p>
+            <p>  
+            ● Ruby		● Rails		● SQL		● PostgreSQL       ● React	   ● Redux	   ● Agile
+            ● JavaScript	● NodeJS	● Express	● MongoDB	    ● Mongoose	   ● REST API	   ● MVC
+            ● HTML	● CSS		● BootStrap 	● SemanticUI	    ● GitHub	   ● Heroku	   ● Firebase
+            ● OOP		● Debugging	● Algorithm	● Management 
+            </p>
 
             <h2>Healthcare Skills: </h2>
             <p>Consultation, Client Assessment, Empathy, Confidence, Communication, Reporting, Physical Stamina, Detail Oriented </p>

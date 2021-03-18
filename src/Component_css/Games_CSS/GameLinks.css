@@ -1,6 +1,7 @@
 .gameLinks{
     text-align: center;
     margin-bottom: 5%;
+    display: grid;
 }
 
 .gameDropDown{
@@ -13,16 +14,16 @@
     font-size: 3rem;
     font-family: wildcrazy;
 }
-
+/* 
 .gameLinks.Links{
     display: none;
-}
+} */
 
-.gameDropDown:hover 
-.gameLinks.Links{
+/* .gameDropDown:hover  */
+/* .gameLinks.Links{
     display: block;
     margin-top: 5%;
-}
+} */
 
 .singleGame{
     color: #cf4c4c;

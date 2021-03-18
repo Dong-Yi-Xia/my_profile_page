@@ -29,7 +29,7 @@ function SectionLinks (props) {
                 </div>
 
                 <NavLink to="/Projects"> Projects </NavLink>
-                <NavLink to="/GameProjects"> Games </NavLink>
+                <NavLink to="/GameProjects"> Features </NavLink>
                 <a className="icon" >
                     <i className="fa fa-bars"></i>
                 </a>

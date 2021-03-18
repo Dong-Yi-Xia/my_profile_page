@@ -1,3 +1,8 @@
 .gameprojectsSection h1{
     text-align: center;
 }
+
+.gameTitles {
+    display: flex;
+    justify-content: center;
+}
