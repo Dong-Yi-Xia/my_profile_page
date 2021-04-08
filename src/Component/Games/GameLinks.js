@@ -32,6 +32,10 @@ function GameLinks (){
                     <a href='https://dong-yi-xia.github.io/ZTM_Project_08_Music_Player/' target='_blank' rel="noreferrer" className='singleGame'> Music_Player </a>
 
                     <a href='https://dong-yi-xia.github.io/ZTM_Project_09_Countdown/' target='_blank' rel="noreferrer" className='singleGame'> CountDown</a>
+
+                    <a href='https://dong-yi-xia.github.io/ZTM_Project_10_Drag_And_Drop/' target='_blank' rel="noreferrer" className='singleGame'> Drag and Drop</a>
+
+                     <a href='https://dong-yi-xia.github.io/using_firebase_firestore/' target='_blank' rel="noreferrer" className='singleGame'> Using Firebase Firestore Database</a>
                 </div>
             </div>
             
