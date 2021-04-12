@@ -35,7 +35,7 @@ function App() {
         <Switch>
            <Route path="/" exact component={MainHome} />
            <Route path="/Projects" exact component={Projects} />
-           <Route path="/GameProjects" component={GameProjects} />
+           <Route path="/FeaturesProjects" component={GameProjects} />
         </Switch>  
 
         {/* <Calculator/> */}

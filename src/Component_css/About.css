@@ -23,8 +23,11 @@
     background-color: green;
 }
 
-.aboutSection p{
-    margin-bottom: 60px;
+.aboutSection p, li{
     color: purple;
+} 
+
+.aboutSection h2{
+    margin-top: 50px;
 } 
 
