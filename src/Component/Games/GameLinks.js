@@ -36,6 +36,10 @@ function GameLinks (){
                     <a href='https://dong-yi-xia.github.io/ZTM_Project_10_Drag_And_Drop/' target='_blank' rel="noreferrer" className='singleGame'> Drag and Drop</a>
 
                      <a href='https://dong-yi-xia.github.io/using_firebase_firestore/' target='_blank' rel="noreferrer" className='singleGame'> Using Firebase Firestore Database</a>
+
+                     <a href='https://dong-yi-xia.github.io/weather-app/' target='_blank' rel="noreferrer" className='singleGame'> Cities Weather App</a>
+
+                     <a href='https://dong-yi-xia.github.io/hangman_app/' target='_blank' rel="noreferrer" className='singleGame'> Hangman </a>
                 </div>
             </div>
             
