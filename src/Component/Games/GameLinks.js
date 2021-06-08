@@ -39,7 +39,9 @@ function GameLinks (){
 
                      <a href='https://dong-yi-xia.github.io/weather-app/' target='_blank' rel="noreferrer" className='singleGame'> Cities Weather App</a>
 
-                     <a href='https://dong-yi-xia.github.io/hangman_app/' target='_blank' rel="noreferrer" className='singleGame'> Hangman </a>
+                     <a href='https://dong-yi-xia.github.io/hangman_app/' target='_blank' rel="noreferrer" className='singleGame'> Hangman Game</a>
+
+                     <a href='https://dong-yi-xia.github.io/snake_app/' target='_blank' rel="noreferrer" className='singleGame'> Snake Game </a>
                 </div>
             </div>
             
