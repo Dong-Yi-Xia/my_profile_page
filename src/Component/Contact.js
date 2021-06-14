@@ -27,7 +27,7 @@ function Contact (){
             </div>
 
             <div>
-                <a href="https://drive.google.com/file/d/1b43eTSd8mV8UzoJp26_3xiicC50FhB9y/view?usp=sharing" target="_blank" rel="noreferrer" class="fa fa-file-pdf-o"> </a>
+                <a href="https://drive.google.com/file/d/1PMIJg4XsWljQH26JfajscDebTBxsn9-f/view?usp=sharing" target="_blank" rel="noreferrer" class="fa fa-file-pdf-o"> </a>
                 <p>Resume</p>
             </div>
 

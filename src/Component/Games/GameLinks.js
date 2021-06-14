@@ -42,6 +42,8 @@ function GameLinks (){
                      <a href='https://dong-yi-xia.github.io/hangman_app/' target='_blank' rel="noreferrer" className='singleGame'> Hangman Game</a>
 
                      <a href='https://dong-yi-xia.github.io/snake_app/' target='_blank' rel="noreferrer" className='singleGame'> Snake Game </a>
+
+                     <a href='https://dong-yi-xia.github.io/word_counter/' target='_blank' rel="noreferrer" className='singleGame'> Word Counter </a>
                 </div>
             </div>
             
